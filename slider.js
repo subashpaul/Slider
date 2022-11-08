@@ -13,7 +13,6 @@ for (let index = 0; index < slidesNum; index++) {
 
 }
 const btns = document.querySelectorAll('.button')
-console.log(btns)
 btns[currSlide].classList.add('active')
 
 const resetbtn = () => {
